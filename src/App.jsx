@@ -9,6 +9,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<PageA />} />
         <Route path="/PageA" element={<PageA />} />
         <Route path="/PageB" element={<PageB />} />
         <Route path="/PageC" element={<PageC />} />
