@@ -6,7 +6,7 @@ export default function PageD() {
   return (
     <div>
       <Navbariot />
-      <Headeriot />
+      <Headeriot wow="หน้า D" woo="😒"/>
       PageD
       <Footeriot />
     </div>

@@ -5,7 +5,7 @@ export default function Headeriot(props) {
 
   return (
     <div>
-        <h1 className='text-center text-blue-600 text-3xl font-bold mt-5'>
+        <h1 className='text-center text-gray-600 text-3xl font-bold mt-5'>
             Hello IOT SAU Dashboard
             <br />
             {wow} {woo}
