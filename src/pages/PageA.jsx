@@ -7,14 +7,14 @@ export default function PageA() {
   return (
     <div>
       <Navbariot />
-      <Headeriot wow="หน้า A" woo="^_^" />
+      <Headeriot wow="หน้า A" woo="💵" />
       {/* ------------------------------------------------------------------------------------------ */}
       <div className="w-7/10 border border-gray-300 p-7 mx-auto rounded-lg shadow-xl">
-        <h1 className="text-center text-2xl text-green-600 font-bold">
+        <h1 className="text-center text-2xl text-blue-900 font-bold">
           Money Shared
         </h1>
 
-        <img src={money} alt="money_shared" className="w-30 mx-auto mt-5" />
+        <img src={money} alt="money_shared" className="w-60 mx-auto mt-5" />
 
         <h3 className="font-bold mt-5">ป้อนเงิน (บาท)</h3>
 
